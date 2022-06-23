@@ -1,0 +1,20 @@
+{
+  "name": "ACTDB",
+  "version": "1.0.0",
+  "description": "An incrementally developing tool for storing data about ACT tests",
+  "main": "server.js",
+  "repository": "https://github.com/ChrisMayes22/ACTDB.git",
+  "author": "Chris Mayes <cpmayes@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
