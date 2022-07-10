@@ -22,7 +22,7 @@ Coach's Twenty Rules for the English section.
 
 As part of this, a class hierarchy for Test and Question objects will be implemented.
 These classes will model data on the database. Tests will expose an ID and a list of
-Questions; Questions will expose their parent test and the rules tested.
+Questions; Questions will expose their parent test and the rule(s) tested.
 
 ## Non-Goals
 This iteration will not cover exams besides the ACT English, nor will it allow users
