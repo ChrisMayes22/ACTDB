@@ -1,0 +1,23 @@
+.page-layout__container {
+    display: flex;
+    background: red;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.page-layout__main-content {
+    display: flex;
+    justify-content: center;
+    background: green;
+    width: 100%;
+    height: 90%;
+}
+
+.prompt-section {
+    background: pink;
+    width: 65%;
+}
+
+.input-section {
+    width: 35%;
+}
