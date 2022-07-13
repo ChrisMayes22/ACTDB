@@ -10,10 +10,13 @@ app.use(cors())
 app.use(express.static('public'))
 
 app.get('/questions', (req, res) => {
-    res.send(questions.reduce((prev, curr) => {
-        prev.push(curr.serializeQuestion());
-        return prev;
-    }, []));
+    const payload = questions.reduce((questionsArr, question) => {
+        if(question.filterQuestion(req.query)){
+            questionsArr.push(question.serializeQuestion());
+        }
+        return questionsArr;
+    }, [])
+    res.json(payload);
 })
 
 export default app;

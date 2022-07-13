@@ -1,0 +1,23 @@
+.prompt-section {
+    background: white;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+}
+
+.questions-rows{
+    display:flex;
+    flex-direction: column;
+}
+
+.questions-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.questions__table-cell {
+    width: 10rem;
+    padding: 0.5rem;
+}
+
