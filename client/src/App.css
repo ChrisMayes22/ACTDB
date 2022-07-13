@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    color: black;
+    padding: 2.08rem;
+    box-sizing: border-box;
+    background-color: #003049;
+}
+
+h5 {
+    text-align: left;
+}
+
+label {
+  margin: 0 1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__list-item {
+  padding: 0rem 1rem;
+}
+
+
+

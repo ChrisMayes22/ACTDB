@@ -1,0 +1,34 @@
+.navbar__container {
+    height: 8vh;
+    background-color: #c1121f;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    border: none;
+    padding: 1rem;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    color: #003049;
+    margin:0 2rem;
+}
+
+.nav-button:hover {
+    border: none;
+    padding: 1rem;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    color: #c1121f;
+    margin:0 2rem;
+}
+
+.nav-button:active {
+    border: none;
+    padding: 1rem;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    color: white;
+    margin:0 2rem;
+    background-color: #003049;
+}
